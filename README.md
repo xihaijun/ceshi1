@@ -1,24 +1,13 @@
 # vue-component
-
-## Project setup
+[![npm version](https://badge.fury.io/js/xi-component-yan.svg)](https://badge.fury.io/js/xi-component-yan)
+## QuickStart
+```bash
+npm install vue-component
 ```
-npm install
+## usage
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+import zhuUI from 'vue-component'
+import  'vue-component/dist/xi-ui.css'
+Vue.use(zhuUI)
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
